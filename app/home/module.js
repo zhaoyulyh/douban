@@ -9,6 +9,8 @@
 				// 所以，是相对于 index.html 来计算的路径
 				// 并且推荐使用： 绝对路径 （少用 相对路径 ）
 				templateUrl: './home/view.html'
+			}).when('/',{
+				templateUrl: './home/view.html'
 			});
 
 		}]);
